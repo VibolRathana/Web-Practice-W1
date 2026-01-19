@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main-tittle">Hello, World!</h1>
+    <button id="change-button">Change tittle</button>
+
+    <script>
+        const tittle = document.getElementById("main-tittle");
+        const button = document.getElementById("change-button");
+
+        button.addEventListener("click", () => {
+            tittle.textContent = "Java script is worst ";
+        });
+    </script>
+</body>
+</html>

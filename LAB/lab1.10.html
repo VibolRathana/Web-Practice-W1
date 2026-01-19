@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="search-input" placeholder="Type to search...">
+    <ul id="item-list"></ul>
+
+    <script>
+        let items =["Book", "Pen", "Pencil", "Paper", "Backpack"];
+        const searchInput = document.getElementById("search-input");
+        const itemList = document.getElementById("item-list");
+
+        function render(filterText){
+            itemList.innerHTML = "";
+            
+        }
+    </script>
+</body>
+</html>
